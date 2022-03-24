@@ -1,0 +1,170 @@
+*/{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* border: 2px solid red; */
+    width: 1280px;
+    height: 4343px;
+    background-color: whitesmoke;
+}
+nav{
+    background-color: #FF7F00;
+    height: 100px;
+}
+nav.navbar{
+    /* border: 2px solid blue; */
+    margin: 20px 35px;
+    width: 1240px;
+}
+h1{
+    padding-left: 10px;
+}
+input{
+    width: 420px;
+    height: 50px;
+    border-radius: 10px;
+    background:linear-gradient(rgba(128, 128, 128, 0.664),rgba(128, 128, 128, 0.664));
+    border: none;
+}
+span.microphone{
+    font-size: 25px;
+    padding: 10px;
+}
+div.icon-box{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+}
+ul{
+    display: flex;
+}
+li{
+    list-style-type: none;
+}
+li:hover, button:hover{
+    border: none;
+    border-bottom: 2px solid grey;
+    /* background: url(image.png); */
+    transition: ease-in-out 0.1s;
+}
+button{
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+}
+div.boxes-host{
+    /* border: 2px solid green; */
+    margin: 0px 35px;
+    width: 1240px;
+}
+div.squares{
+    width: 1240px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    justify-content: space-between;
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    /* column-gap: 20px; */
+}
+div.box{
+    /* border: 3px solid pink; */
+    height: 437px;
+    width: 316px;
+}
+span#stars{
+    margin-left: 20px;
+}
+div.square{
+    height: 312px;
+    width: 314px;
+    background-color: #3c8d44b6;
+}
+div.squares p.text{
+    margin-left: 280px;
+}
+div.line{
+    height: 10px;
+    width: 314px;
+    background-color: rgba(128, 128, 128, 0.548);
+    /* background: url(alice.png); */
+    /* border: 1px solid purple; */
+}
+div.half-line{
+    height: 10px;
+    width: 185.26px;
+    /* border: 1px solid navy; */
+    background-color: #3C8D44;
+}
+div#second{
+    width: 62.8px;
+}
+div#third{
+    width: 244.92;
+}
+#fourth{
+    width: 31.4px;
+}
+#fifth{
+    width: 116.18px;
+}
+#sixth{
+    width: 15.7px;
+}
+#seventh{
+    width: 69.08px;
+}
+#eighth{
+    width: 135.02px;
+}
+#ninth{
+    width: 216.66px;
+}
+#tenth{
+    width: 282.6px;
+}
+#eleventh{
+    width: 314px;
+}
+#twelfth{
+    width: 257.48px;
+}
+#thirteenth{
+    width: 244.92px;
+}
+#fourteenth{
+    width: 398.3px;
+}
+#fifteenth{
+    width: 257.48px;
+}
+#sixteenth{
+    width: 310.86px;
+}
+#seventeenth{
+    width: 270.04px;
+}
+#eihgteenth{
+    width: 314px;
+}
+#ninteenth{
+    width: 282.6px;
+}
+#twentieth{
+    width: 310.86px;
+}
+#twenty-first{
+    width: 285.74px;
+}
+#twenty-second{
+    width: 31.4px;
+}
+#last-p{
+    margin-left: 280px;
+}
+h5{
+    margin-top: 10px;
+}
+div#comics{
+    margin-top: 30px;
+}

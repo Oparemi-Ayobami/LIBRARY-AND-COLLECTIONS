@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 82%;
+    /* max-width: 1240px; */
+    margin: 25px auto;
+}
+
+@media(max-width:500px) {
+    div.header {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+h1.title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 146.7%;
+    color: #444444;
+}
+
+input.searchbar {
+    border: none;
+    outline: none;
+    background-color: #c4c4c4;
+    width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+input::placeholder {
+    color: #828282;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+nav.nav-bar {
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    margin-left: 130px;
+    margin-top: 25px;
+    gap: 35px;
+}
+
+.nav-bar h2 {
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 400;
+    color: #000;
+}
+
+.nav-bar button {
+    font-size: 30px;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #444;
+    font-weight: 400;
+}
+
+hr.line {
+    width: 110px;
+    height: 7px;
+    background-color: #c4c4c4;
+    border: none;
+    position: absolute;
+    left: 130px;
+}
+
+@media(max-width:500px) {
+    nav.nav-bar {
+        justify-content: center;
+        margin: 25px auto;
+        margin-bottom: 0;
+    }
+    hr.line {
+        left: 50px;
+    }
+}
+
+@media(min-width: 500px) and (max-width:800px) {
+    nav.nav-bar {
+        justify-content: left;
+        margin: 25px 0 0 70px;
+    }
+    hr.line {
+        left: 70px;
+    }
+}
+
+@media(min-width: 800px) and (max-width:1300px) {
+    nav.nav-bar {
+        justify-content: left;
+        margin: 25px 0 0 115px;
+    }
+    hr.line {
+        left: 115px;
+    }
+}
+
+div.collections {
+    width: 100%;
+    /* max-width: 1240px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px auto;
+    gap: 75px;
+}
+
+div.collections .shelf {
+    margin: 0 auto;
+}
+
+div.collections .shelf .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+div.collections .shelf .top h3 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #000;
+}
+
+.fa-chevron-down {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+div.collections .shelf .bottom {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 9.2rem;
+    row-gap: 4.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:500px) {
+    div.collections .shelf .bottom {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media(min-width: 500px) and (max-width:800px) {
+    div.collections .shelf .bottom {
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 3rem;
+    }
+}
+
+@media(min-width: 800px) and (max-width:1300px) {
+    div.collections .shelf .bottom {
+        column-gap: 3rem;
+    }
+}
+
+div.bottom .box {
+    width: 100%;
+    max-width: 316px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div.bottom .box .book {
+    width: 314px;
+    height: 312px;
+    background-color: #c4c4c4;
+    cursor: pointer;
+}
+
+div.bottom .box label {
+    text-align: right;
+}
+
+div.bottom .box progress {
+    width: 100%;
+    height: 10px;
+    border-radius: none;
+    -webkit-appearance: none;
+    appearance: none;
+    cursor: pointer;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #c4c4c4;
+}
+
+progress::-webkit-progress-value {
+    background-color: #000;
+}
+
+div.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.fa-star {
+    cursor: pointer;
+}
+
+div.rating .fa-star:nth-child(5) {
+    -webkit-text-stroke: 1px#000;
+    color: #fff;
+}
+
+div.views {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+div.views .author {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+div.views .view {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+div.views .view span {
+    color: #828282;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
